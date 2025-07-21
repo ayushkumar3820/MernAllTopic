@@ -1,7 +1,9 @@
-export  const  Footer=()=>{
-    return(
-        <>
-        <div>Footer</div>
-        </>
-    )
-}
+const Footer = () => {
+  return (
+    <footer className="bg-gray-800 text-white p-4 text-center">
+      <p>&copy; 2025 MERN CRUD App. All rights reserved.</p>
+    </footer>
+  );
+};
+
+export default Footer;
